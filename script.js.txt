@@ -1,0 +1,11 @@
+// Handle Contact Form
+document.getElementById('contactForm').addEventListener('submit', function(e) {
+  e.preventDefault();
+  alert('Thank you for contacting GREY ALLIANCE! We will get back to you soon.');
+});
+
+// Handle Newsletter Form
+document.getElementById('newsletterForm').addEventListener('submit', function(e) {
+  e.preventDefault();
+  alert('You have subscribed to the GREY ALLIANCE newsletter!');
+});
