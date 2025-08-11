@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GREY ALLIANCE</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#mission">Mission</a></li>
+        <li><a href="#products">Products</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#blog">Blog</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#newsletter">Newsletter</a></li>
+        <li><a href="#about">About</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="mission">
+      <h1>Mission Statement</h1>
+      <p>To empower financial institutions in the legal and logistics sectors by providing AI-driven solutions that enhance efficiency, accuracy, and risk management.</p>
+    </section>
+
+    <section id="products">
+      <h1>AI-Powered Financial Solutions</h1>
+      <ul>
+        <li>AI-Driven Financial Analysis</li>
+        <li>Automated Document Processing</li>
+        <li>Predictive Risk Management</li>
+      </ul>
+    </section>
+
+    <section id="services">
+      <h1>Services</h1>
+      <ul>
+        <li>Consulting and Customization</li>
+        <li>Subscription-based Model</li>
+      </ul>
+    </section>
+
+    <section id="blog">
+      <h1>Blog</h1>
+      <ul>
+        <li><a href="#">How AI is Revolutionizing the Legal Sector</a></li>
+        <li><a href="#">The Future of AI in Logistics</a></li>
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h1>Get in Touch</h1>
+      <form id="contactForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea><br><br>
+        <input type="submit" value="Send">
+      </form>
+    </section>
+
+    <section id="newsletter">
+      <h1>Subscribe to our Newsletter</h1>
+      <form id="newsletterForm">
+        <label for="newsletterEmail">Email:</label>
+        <input type="email" id="newsletterEmail" name="email" required><br><br>
+        <input type="submit" value="Subscribe">
+      </form>
+    </section>
+
+    <section id="about">
+      <h1>About Us</h1>
+      <p>GREY ALLIANCE is an innovative AI-powered financial solutions provider focusing on the legal and logistics sectors.</p>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
